@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QoutesPage.MainPage">
+
+    <StackLayout BindingContext="{x:Reference slider}"
+                 Padding="20"
+                 HorizontalOptions="Start" VerticalOptions="Start"
+                 >
+        <Button x:Name="NEXT" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="NEXT_Clicked"
+                Text="Next"/>
+        <Label Text="TT"/>
+        <Slider x:Name="slider" Maximum="50" Minimum="16"/>
+        <Label x:Name="currentQuote" Text="you can't blame gravity to falling inlove"/>
+
+
+    </StackLayout>
+
+</ContentPage>
