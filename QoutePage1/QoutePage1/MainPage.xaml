@@ -10,7 +10,7 @@
         <Button x:Name="NEXT" HorizontalOptions="Center" VerticalOptions="Center"
                 Clicked="NEXT_Clicked"
                 Text="Next"/>
-        <Label Text="TT"/>
+        <Label Text="Tt"/>
         <Slider x:Name="slider" Maximum="50" Minimum="16"/>
         <Label x:Name="currentQuote" Text="you can't blame gravity to falling inlove"/>
 
